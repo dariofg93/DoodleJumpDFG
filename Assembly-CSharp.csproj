@@ -51,10 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ControladorSalto.cs" />
-     <Compile Include="Assets\Scripts\DoodleMovement.cs" />
-     <Compile Include="Assets\Scripts\DoodleNoRotate.cs" />
-     <Compile Include="Assets\Scripts\SeguirDoodler.cs" />
+     <Compile Include="Assets\Scripts\Camera\SeguirDoodler.cs" />
+     <Compile Include="Assets\Scripts\Font\Score.cs" />
+     <Compile Include="Assets\Scripts\Player\ControladorSalto.cs" />
+     <Compile Include="Assets\Scripts\Player\DoodleMovement.cs" />
+     <Compile Include="Assets\Scripts\Player\DoodleNoRotate.cs" />
+     <Compile Include="Assets\Scripts\Player\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\Spawner\Spawn.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
