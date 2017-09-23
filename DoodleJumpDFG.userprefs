@@ -2,7 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Camera\SeguirDoodler.cs">
     <Files>
-      <File FileName="Assets\Scripts\Camera\SeguirDoodler.cs" Line="9" Column="32" />
+      <File FileName="Assets\Scripts\Platforms\movePlatform.cs" Line="19" Column="44" />
+      <File FileName="Assets\Scripts\Spawner\Spawn.cs" Line="16" Column="48" />
+      <File FileName="Assets\Scripts\Camera\SeguirDoodler.cs" Line="19" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

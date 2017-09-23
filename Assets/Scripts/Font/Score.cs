@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Score : MonoBehaviour {
 
-	private float score = 0;
+	private float scorePoints = 0;
 	private TextMesh showText = null;
 	public float scoreMultiplier;
 
@@ -15,10 +15,14 @@ public class Score : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		showText.text = "Score: " + (int) (score * scoreMultiplier);
+		showText.text = "Score: " + (int) totalScore();
+	}
+
+	public float totalScore() {
+		return scorePoints * scoreMultiplier;
 	}
 
 	public void addScore(float valorAgregado){
-		score += valorAgregado;
+		scorePoints += valorAgregado;
 	}
 }
